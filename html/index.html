@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   <title>Richard</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
     <div class="container">
       <nav class="header__nav nav">
         <a class="logo header__logo" href="#">
-          <img class="header__logo-img" src="" alt="Richard">
+          <img class="header__logo-img" src="../img/logo.png" alt="logo">
         </a>
         <ul class="header__menu menu">
           <li class="item header__item header__item--active"><a class="header__link link" href="#">About</a></li>
@@ -25,157 +25,191 @@
       </nav>
       <div class="header__content">
         <h1 class="header__headline">Momentum</h1>
-        <h4 class="header__text">Launch your product — and savor the momentum.</h4>
-        <button class="header__button button">Get the App</button>
+        <h2 class="header__text">Launch your product — and savor the momentum.</h2>
+        <button class="header__button button" type="button" onclick="window.location.href = '#';">Get the App</button>
+        
+        <img class="header__photo" src="../img/header.png" alt="" class="">
+        
       </div>
     </div>
   </header>
   <main class="main">
-    <div class="container">
       <section class="main__tablet tablet">
-        <div class="tablet__content content">
-          <p class="tablet__grey-text grey-text">Aenean Consectetur Porta</p>
-          <h3 class="tablet__wtitle wtitle">Nullam quis risus eget urna mollis ornare vel eu leo.</h3>
-        </div>  
-        <div class="main__tablet-img">    
-          <img src="" alt="">
+        <div class="container">
+          <div class="tablet__content">
+            <p class="tablet__grey-text grey-text">Aenean Consectetur Porta</p>
+            <h2 class="tablet__wtitle wtitle">Nullam quis risus eget urna mollis ornare vel eu leo.</h2>
+          </div>  
+          <div class="main__tablet-img">    
+            <img src="../img/tablet.png" alt="">
+          </div>
         </div>
       </section>
       <section class="main__white-page">
         <section class="main__cards cards">
-          <div class="cards__card card">
-            <div class="cards__content content">
-              <p class="cards__grey-text grey-text">Aenean Consectetur</p>
-              <h3 class="cards__title title cards__title--active">Magna Porta Sit Bibendum</h3>
-              <h6 class="cards__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h6>
+          <div class="container">
+
+            <div class="cards__card card">
+              <div class="cards__content content">
+                <p class="cards__grey-text grey-text">Aenean Consectetur</p>
+                <h2 class="cards__title title cards__title--active">Magna Porta Sit Bibendum</h2>
+                <p class="cards__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+              <div class="cards__cards-img cards-img">
+                <img class="cards__card-img card-img"src="../img/1card.png" alt="">
+              </div>
             </div>
-            <div class="cards__cards-img cards-img">
-              <img class="cards__card-img"src="" alt="">
+
+            <div class="cards__card card">
+              <div class="cards__cards-img cards-img">
+                <img class="cards__card-img card-img"src="../img/2card.png" alt="">
+              </div>
+              <div class="cards__content content cards__content--reverse">
+                <p class="cards__grey-text grey-text">ConsectUltricies</p>
+                <h2 class="cards__title title">Amet Ipsum</h2>
+                <p class="cards__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
             </div>
-          </div>
-          <div class="cards__card-reverse card-reverse">
-            <div class="cards__content content">
-              <p class="cards__grey-text grey-text">ConsectUltricies</p>
-              <h3 class="cards__title title">Amet Ipsum</h3>
-              <h6 сlass="cards__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h6>
+
+            <div class="cards__card card">
+              <div class="cards__content content">
+                <p class="cards__grey-text grey-text">Aenean Consectetur Porta</p>
+                <h2 class="cards__title title">Magna Porta Sit Bibendum</h2>
+                <p class="cards__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+              <div class="cards__cards-img cards-img">
+                <img class="cards__card-img card-img"src="../img/3card.png" alt="">
+              </div>
             </div>
-            <div class="cards__cards-img cards-img">
-              <img class="cards__card-img card-img"src="" alt="">
-            </div>
-          </div>
-          <div class="cards__card card">
-            <div class="cards__content content">
-              <p class="cards__grey-text grey-text">Aenean Consectetur Porta</p>
-              <h3 class="cards__title title">Magna Porta Sit Bibendum</h3>
-              <h6 class="cards__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h6>
-            </div>
-            <div class="cards__cards-img cards-img">
-              <img class="cards__card-img card-img"src="" alt="">
-            </div>
+
           </div>
         </section>
         <section class="main__icons icons">
-          <div class="icons__icon icon">
-            <img src="" alt="" class="icons__icon-img">
-            <h3 class="icons__icon-name icon-name">Activity Notifications</h3>
-            <h3 class="icons__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h4>
-          </div>
-          <div class="icons__icon icon">
-            <img src="" alt="" class="icons__icon-img">
-            <h3 class="icons__icon-name icon-name">Custom Timing</h3>
-            <h3 class="icons__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h4>
-          </div>
-          <div class="icons__icon icon">
-            <img src="" alt="" class="icons__icon-img">
-            <h3 class="icons__icon-name icon-name">Mobile Optimized</h3>
-            <h3 class="icons__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h4>
-          </div>
+          
+            <div class="icons__icon icon">
+              <div class="img1"><img src="../img/1icon.png" alt="" class="icons__icon-img"></div>
+              <p class="icons__icon-name icon-name">Activity Notifications</p>
+              <p class="icons__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+
+            <div class="icons__icon icon">
+              <div class="img1"><img src="../img/2icon.png" alt="" class="icons__icon-img"></div>
+              <p class="icons__icon-name icon-name">Custom Timing</p>
+              <p class="icons__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+
+            <div class="icons__icon icon">
+              <div class="img1"><img src="../img/3icon.png" alt="" class="icons__icon-img"></div>
+              <p class="icons__icon-name icon-name">Mobile Optimized</p>
+              <p class="icons__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+
         </section>
         <section class="main__numbers numbers">
-          <div class="numbers__number number">
-            <h1 class="numbers__number-title">+12k</h1>
-            <h3 class="nubmers__nubmer-subtitletext">Nibh Elit Tristique</h3>
+          <div class="container">
+            <div class="num">
+            <div class="number">
+              <p class="numbers-title">+12k</p>
+              <p class="numbers-subtitle">Nibh Elit Tristique</p>
+            </div>
+
+            <div class="number">
+              <p class="numbers-title">84</p>
+              <p class="numbers-subtitle">Aenean Condimentum</p>
+            </div>
+
+            <div class="number">
+              <p class="numbers-title">3,07</p>
+              <p class="numbers-subtitle">Quam Inceptos</p>
+            </div>
+
+            <div class="number">
+              <p class="numbers-title">24h</p>
+              <p class="numbers-subtitle">Ullamcorper</p>
+            </div>
           </div>
-          <div class="number">
-            <h1 class="numbers__number-title">84</h1>
-            <h3 class="nubmers__nubmer-subtitletext">Aenean Condimentum</h3>
-          </div>
-          <div class="number">
-            <h1 class="numbers__number-title">3,07</h1>
-            <h3 class="nubmers__nubmer-subtitletext">Quam Inceptos</h3>
-          </div>
-          <div class="number">
-            <h1 class="numbers__number-title">24h</h1>
-            <h3 class="nubmers__nubmer-subtitletext">Ullamcorper</h3>
           </div>
         </section>
         <section class="main__foods">
-          <div class="foods__food food">
-            <div class="foods__content content">
-              <p class="foods__grey-text grey_text">Aenean Consectetur Porta</p>
-              <h3 class="foods__title title">Sem Risus Elit Vestibulum</h3>
-              <h6 class="foods__subtitle subtitle">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. <span class="food-span">Cras mattis consectetur</span> purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.</h6>
+          <div class="container">
+
+            <div class="foods__food food">
+              <div class="foods__content content">
+                <p class="foods__grey-text grey-text">Aenean Consectetur Porta</p>
+                <h2 class="foods__title title">Sem Risus Elit Vestibulum</h2>
+                <p class="foods__subtitle subtitle">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. <span class="food-span">Cras mattis consectetur</span> purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.</p>
+              </div>
+              <div class="foods__foods-img foods-img">
+                <img class="foods__food-img food-img"src="../img/food1.png" alt="">
+              </div>
             </div>
-            <div class="foods__foods-img foods-img">
-              <img class="foods__food-img food-img"src="" alt="">
+
+            <div class="foods__food food">
+              <div class="foods__foods-img foods-img">
+                <img class="foods__food-img food-img" src="../img/food2.png" alt="">
+              </div>
+              <div class="foods__content content">
+                <p class="foods__grey-text grey-text">Aenean Consectetur Porta</p>
+                <h2 class="foods__title title">Parturient Tortor</h2>
+                <p class="foods__subtitle subtitle">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. <span class="food-span">Cras mattis consectetur</span> purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.</p>
+              </div>     
             </div>
-          </div>
-          <div class="foods__food-reverse food-reverse">
-            <div class="foods__content content">
-              <p class="foods__grey-text grey-text">Aenean Consectetur Porta</p>
-              <h3 class="foods__title title">Parturient Tortor</h3>
-              <h6 class="foods__subtitle subtitle">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. <span class="food-span">Cras mattis consectetur</span> purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.</h6>
-            </div>
-            <div class="foods__foods-img foods-img">
-              <img class="foods__food-img food-img" src="" alt="">
-            </div>
+            
           </div>
         </section>
         <section class="main__switchboard">
-          <div class="main__switchboard-content">
-            <img src="" alt="" class="main__qq">
-            <h2 class="main__subtitle subtitle main__subtitle--active">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.ing</h2>
-            <div class="main__switchboard-themes">
-              <p class="main__swtichboard-theme1">Joshua Home</p>
-              <p class="main__switchboard-theme2">New York Times</p>
+          <div class="container">
+            <div class="main__switchboard-content">
+              <img src="../img/qq.png" alt="" class="main__qq">
+              <p class="main__subtitle subtitle main__subtitle--rate">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.ing</p>
+              <div class="main__switchboard-themes">
+                <p class="subtitle s1">Joshua Home</p>
+                <p class="subtitle s2"><span id="on">New York Times</span></p>
+              </div>
+              <label class="main__switchboard-switch">
+                <input type="checkbox">
+                <input type="checkbox">
+                
+              </label>
             </div>
-            <label class="main__switchboard-switch">
-              <input type="checkbox">
-              <span class="main__switchboard-slider"></span>
-            </label>
           </div>
         </section>
+
         <section class="main__brands">
-          <img src="" alt="" class="main__brand">
-          <img src="" alt="" class="main__brand">
-          <img src="" alt="" class="main__brand">
-          <img src="" alt="" class="main__brand">
-          <img src="" alt="" class="main__brand">
+          <div class="container">
+            <img src="../img/logos.png" alt="" class="main__brand">
+          </div>
         </section>
-        <section class="main__phones">
-          <img src="" alt="" class="main__phones-img">
+        <section class="main__phones container">
+          <img src="../img/icecream.png" alt="" class="main__phones-img">
         </section>
+
         <section class="main__start start">
-          <div class="main__start-elems">
-            <h3 class="start__wtitle wtitle start__title--active">Ready to get started?</h1>
-            <div class="main__start-buttons">
-              <button class="start__download">Download Now</button>
-              <button class="start__get">Get in Touch</button>
+          
+          <div class="container">
+            <div class="main__start-elems">
+              <h2 class="wtitle--footer wtitle">Ready to get started?</h2>
+              <div class="main__start-buttons">
+                <button class="start__button button" type="button" onclick="window.location.href = '#';">Download Now</button>
+                <button class="start__get" type="button" onclick="window.location.href = '#';">Get in Touch</button>
+              </div>
             </div>
           </div>
         </section>
+
         <section class="email main__email">
-          <div class="email__content">
-            <h3 class="email__wtitle wtitle email-title__active">Get updates from Richard</h3>
-            <p class="grey-text">New course alerts, discounts and free lessons</p>
-            <form>
-              <input class="email-enter" id="emailform" placeholder="Enter your email">
-              <input class="email-subscribe" type="submit" value="Subscribe">
-            </form>
+          <div class="container">
+            <div class="email__content">
+              <h2 class="wtitle wtitle--footer">Get updates from Richard</h2>
+              <p class="grey-text-footer">New course alerts, discounts and free lessons</p>
+              <form class="form2">
+                <input class="email-enter" id="emailform" placeholder="Enter your email">
+                <input class="email-subscribe button" type="submit" value="Subscribe">
+              </form>
+            </div>
           </div>
         </section>
       </section>
-    </div>
   </main>
   <footer class="footer">
     <div class="container">
