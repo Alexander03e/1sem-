@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="form">
+    <header class="header">
+        <div class="container">
+          <nav class="header__nav nav">
+            <a class="logo header__logo" href="#">
+              <img class="header__logo-img" src="img/logo.png" alt="logo">
+            </a>
+            <ul class="header__menu menu">
+              <li class="item header__item header__item--active"><a class="header__link link" href="#">About</a></li>
+              <li class="item header__item header__item--active"><a class="header__link link" href="#">Features</a></li>
+              <li class="item header__item header__item--active"><a class="header__link link" href="#">How to Use</a></li>
+              <li class="item header__item header__item--active"><a class="header__link link" href="#">Download</a></li>
+            </ul>
+          </nav>
+          <div class="header__content">
+            <h1 class="header__headline">Momentum</h1>
+            <h2 class="header__text">Launch your product — and savor the momentum.</h2>
+            <button class="header__button button" type="button" onclick="window.location.href = '#';">Get the App</button>
+            
+            <img class="header__photo" src="img/header.png" alt="" class="">
+            <button class="header__button button" type="button" onclick="window.location.href = 'index.html';">Главная страница</button>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="container">
+        <form class="register-form" action="//httpbin.org/post" method="post">
+            <fieldset class="personal-info">
+            <legend class="title legend"><b>Личные данные</b></legend>
+            
+                <label for="name" class="labeltitle"><b>Имя</b></label><br>    
+                <input type="text" class="email-enter" placeholder="Введите имя" name="name" required><br>
+
+                <label for="date" class="labeltitle"><b>Дата рождения</b></label><br>
+                <input type="text" class="email-enter" placeholder="Введите дату рождения" name="date" required><br>
+
+                <label for="gender" class="labeltitle"><b>Пол</b></label><br>
+                <input type="radio" name="gender" class="radiobutton">
+                <label for="gender" class="radiolabel">Мужской</laber><br>
+                <input type="radio"  name="gender" class="radiobutton">
+                <label for="gender" class="radiolabel">Женский</label><br>
+                
+                <label for="password" class="labeltitle"><b>Пароль</b></label><br>
+                <input type="password" class="email-enter" placeholder="Ваш пароль" name="password" required><br>
+            </fieldset>
+            <fieldset class="contact-info">
+            <legend class="title legend"><b>Контактная информация</b></legend>
+
+            <label for="email2" class="labeltitle"><b>Email</b></label><br>
+            <input class="email-enter" name="email2" placeholder="Введите email" required><br>
+
+            <label for="phone-number" class="labeltitle"><b>Номер телефона</b></label><br>
+            <input class="email-enter" name="phone-number" placeholder="Номер телефона" required><br>
+
+            <label for="contact1" class="labeltitle"><b>Удобный интервал для связи</b></label><br>
+            <input type="checkbox" name="contact1" class="checkbutton">
+            <label for="contact1"class="radiolabel">Утро</label><br>
+            <input type="checkbox" name="contact2" class="checkbutton">
+            <label for="contact2"class="radiolabel">День</label><br>
+            <input type="checkbox" name="contact3" class="checkbutton">
+            <label for="contact3"class="radiolabel">Вечер</label><br>
+            <input type="checkbox" name="contact4" class="checkbutton">
+            <label for="contact4"class="radiolabel">Ночь</label><br>
+            </fieldset>
+            <input class="email-subscribe button" type="submit" value="Отправить">
+            <input class="start__get start__get--active button" type="reset" value="Сбросить">
+            
+        </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer__nav nav">
+            <ul class="footer__menu menu">
+              <li class="item footer__item footer__item--active"><a class="footer__link link" href="#">Email</a></li>
+              <li class="item footer__item footer__item--active"><a class="footer__link link" href="#">Instagram</a></li>
+              <li class="item footer__item footer__item--active"><a class="footer__link link" href="#"">Facebook</a></li>
+              <li class="item footer__item footer__item--active"><a class="footer__link link" href="#">Twitter</a></li>
+              <li class="item footer__item footer__item--active"><a class="footer__link link" href="#">Image License Info</a></li>
+              <li class="item footer__item footer__item--active"><a class="footer__link link" href="#">Powered by Webflow</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+</body>
+</html>

@@ -12,7 +12,6 @@
 }
 html{
     font-family: 'Gothic A1', 'Arial Narrow', Arial, sans-serif;
-    width:1440px;
     margin:0 auto;
     
 }
@@ -406,3 +405,41 @@ li{
 main ~ :not(footer) {
     display: none;
   }
+/*form*/
+
+.register-form{
+    margin-bottom:50px;
+    margin-top:50px;
+}
+.contact-info{
+    margin-bottom:20px;
+    margin-top:30px;
+}
+.start__get--active{
+    color:black;
+    margin-left:15px;
+}
+.register-form input{
+    margin-bottom:12px;
+}
+.legend{
+    letter-spacing: 3px;
+    text-align: center;
+}
+fieldset{
+    border:3px solid #FC0A7E;
+}
+.labeltitle{
+    font-size:20px;
+}
+.radiolabel{
+    margin-left:15px;
+    
+}
+.radiobutton{
+    margin-top:10px;
+}
+.checkbutton{
+    margin-top:10px;
+    
+}
