@@ -124,6 +124,7 @@ a{
     position:absolute;
     right:0;
     bottom: -5px;
+    max-width: 100%;
     margin-bottom:0;
 }
 .main__cards{
@@ -392,8 +393,8 @@ li{
 
 .header__photo{
     position:absolute;
-    top:120px;
-    left:1270px;
+    top:12%;
+    left:56%;
     max-width:100%;
 }
 .grey-text-footer{

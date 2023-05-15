@@ -10,8 +10,10 @@
   
   <title>Richard</title>
 </head>
-<body>
+<body id="body">
   <header class="header">
+          <!-- модальное окно регистрации -->
+
     <div class="modal" id="my-modal">
       <a id="all-close"></a>
       <div class="modal__box">
@@ -19,7 +21,6 @@
           <button id="button-modal-close"></button>
         </div>
         <p class="title">Регистрация</p>
-      
         <form class="register-form" id="regform1" action="//httpbin.org/post" method="post">
             <label for="firstname" class = "labeltitle"><b>Имя</b></label><br>
             <input type="text" class = "email-enter" placeholder = "Введите имя" name="firstname"><br>
@@ -32,6 +33,9 @@
         </form>
       </div>
     </div> 
+
+          <!-- модальное окно регистрации -->
+
     <div class="container">
       <nav class="header__nav nav">
         <a class="logo header__logo" href="#">
