@@ -8,10 +8,12 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   
+
   <title>Richard</title>
 </head>
 <body id="body">
   <header class="header">
+
           <!-- модальное окно регистрации -->
 
     <div class="modal" id="my-modal">
@@ -23,19 +25,26 @@
         <p class="title">Регистрация</p>
         <form class="register-form" id="regform1" action="//httpbin.org/post" method="post">
             <label for="firstname" class = "labeltitle"><b>Имя</b></label><br>
-            <input type="text" class = "email-enter" placeholder = "Введите имя" name="firstname"><br>
-            <label for="login" class="labeltitle"><b>Почта</b></label><br>    
-            <input type="text" class="email-enter" placeholder="Введите почту" name="login" required><br>  
+            <input type="text" id="nameInput" class = "email-enter" placeholder = "Введите имя" name="firstname" required><br>
+            <p id="error1" class="error"></p><br>
+
+            <label for="login" class="labeltitle"><b>Почта</b></label><br>
+            <input type="text" class="email-enter" id="emailInput" placeholder="Введите почту" name="login" required><br> 
+            <p id="error2" class="error"></p><br>
+ 
             <img src="img/eye.png" class="pass-text" id="eye">              
             <label for="password" class="labeltitle"><b>Пароль</b></label><br>
             <input type="password" id="pass-id" class="email-enter" minlength="6" placeholder="Ваш пароль" name="password" required><br>
+            <p id="error3" class="error"></p><br>
+
             <input class="email-subscribe button" id="submit-button" type="submit" value="Отправить">
         </form>
       </div>
     </div> 
-
-          <!-- модальное окно регистрации -->
-
+    <div id="notification">
+      <p>Вы успешно зарегистрировались</p>
+      <button id="close-btn">Закрыть</button>
+    </div>
     <div class="container">
       <nav class="header__nav nav">
         <a class="logo header__logo" href="#">
@@ -53,7 +62,6 @@
         <h2 class="header__text">Launch your product — and savor the momentum.</h2>
         <button class="header__button button" type="button" onclick="window.location.href = '#';">Get the App</button>
         <button class="header__button button" id="button2" type="button" onclick="window.location.href = 'form.html';">Форма</button>
-        <!-- модальное окно регистрации-->
         <button class="header__button button" id="button-modal-open" >Зарегистрироваться</button>
         
         <img class="header__photo" src="img/header.png" alt="" class="">

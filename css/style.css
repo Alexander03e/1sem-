@@ -259,7 +259,8 @@ a{
 }
 .main__start{
     background:linear-gradient(90deg,#FC0A7E,#6E28B1),url(../img/vector.png) center/100% 13px;
-    height:474px;
+    padding-bottom:200px;
+    padding-top:200px;
     background-blend-mode: multiply;
     display: flex;
     justify-content: center;
@@ -275,7 +276,8 @@ a{
 }
 .email{
     background-color: var(--tabletpage-color);
-    height:463px;
+    padding-top:40px;
+    padding-bottom:100px;
     display: flex;
     justify-content: center;
 }
@@ -507,3 +509,52 @@ fieldset{
     right:5%;
     top:63%;
 }
+.error{
+    padding:0;
+    margin:0;
+    
+    color:var(--subtitle-color);
+    text-align:center;
+    position:absolute;
+    
+}
+#notification {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    transition:2s;
+    display: none;
+    
+  }
+  
+  #notification p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  #close-btn {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  #error1{
+    top:21%;
+  }
+  #error2{
+    top:49%;
+  }
+  #error3{
+    top:76%;
+  }
+  
